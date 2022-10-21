@@ -16,6 +16,8 @@ namespace Assignment2.Controllers
         /// the third pays 9 quartersevery 10th time it is played.
         /// Input the number of quarters should be least one and fewer than 1000
         /// </summary>
+        /// <returns> Returns the number how many martha can play until she broke.
+        /// </returns>
         /// <param name="quaters">Integer representing the number of quaters that player have. </param>
         /// <param name="fcount">Integer representing the number of time first machine has been played.</param>
         /// <param name="scount">Integer representing the number of time second machine has been played.</param>
