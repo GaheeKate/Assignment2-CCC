@@ -113,7 +113,7 @@ namespace Assignment2.Controllers
                     break;
                 default:
                     return "Wrong input";
-                    // code block
+                    // wrong input
             }
             int total = b + d + s + de;
             return "Your total calorie count is " + total;
