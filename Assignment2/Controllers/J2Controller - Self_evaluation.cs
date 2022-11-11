@@ -20,10 +20,10 @@ namespace Assignment2.Controllers
         /// <param name="m">positive integer representing the number of sides on the first die</param>
         /// <param name="n">positive integer representing the number of sides on the second die</param>
         /// <example>
-        /// GET: api/J2/DiceGame/6/8 -> There are 5 total ways to get the sum 10."
+        /// GET: api/J2s/DiceGame/6/8 -> There are 5 total ways to get the sum 10."
         /// </example>
         /// <example>
-        /// GET: api/J2/DiceGame/5/5 -> There is 1 way to get the sum 10."
+        /// GET: api/J2s/DiceGame/5/5 -> There is 1 way to get the sum 10."
         /// </example>
 
         [Route("api/J2s/DiceGame/{m}/{n}")]
